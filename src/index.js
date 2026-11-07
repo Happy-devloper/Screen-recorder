@@ -1,10 +1,15 @@
 const { app, BrowserWindow, desktopCapturer, ipcMain } = require("electron");
+const fs = require("node:fs");
 const path = require("node:path");
 
 // Handle creating/removing shortcuts on Windows when installing/uninstalling.
 if (require("electron-squirrel-startup")) {
   app.quit();
 }
+
+const cachePath = path.join(app.getPath("temp"), "screen-recorder-cache");
+fs.mkdirSync(cachePath, { recursive: true });
+app.setPath("cache", cachePath);
 
 ipcMain.handle("get-video-sources", async () => {
   const sources = await desktopCapturer.getSources({
@@ -18,6 +23,7 @@ const createWindow = () => {
   const mainWindow = new BrowserWindow({
     width: 800,
     height: 600,
+    icon: path.join(__dirname, "../assets/icon/logo.ico"),
     webPreferences: {
       preload: path.join(__dirname, "preload.js"),
       contextIsolation: true,
