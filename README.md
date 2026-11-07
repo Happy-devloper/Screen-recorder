@@ -2,8 +2,9 @@
 
 Record a screen or app window from a simple desktop app. Pick a source, check the live preview, and save the recording as a WebM video.
 
-![App Screenshot](<img width="1920" height="1080" alt="preview_1" src="https://github.com/user-attachments/assets/67205baf-18e2-48d8-8933-da92a73dc850" />
-)
+**App Screenshot**
+
+<img width="480" height="270" alt="preview_1" src="https://github.com/user-attachments/assets/67205baf-18e2-48d8-8933-da92a73dc850" />
 
 ## What it does
 
@@ -14,8 +15,10 @@ Record a screen or app window from a simple desktop app. Pick a source, check th
 
 Recordings are saved to your Downloads folder. This app currently records video without audio.
 
-![Save Screenshot](<img width="1920" height="1080" alt="preview_2" src="https://github.com/user-attachments/assets/e842c03a-b362-4b8b-bb6c-b6b3a91e8247" />
-)
+**App Screenshot**
+
+<img width="480" height="270" alt="preview_2" src="https://github.com/user-attachments/assets/e842c03a-b362-4b8b-bb6c-b6b3a91e8247" />
+
 
 ## Get started
 
