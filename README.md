@@ -47,8 +47,10 @@ npm run package
 npm run make
 ```
 
-## Built with
+## Tech Stack
 
-- Electron
-- Electron Forge
-- HTML, CSS, and JavaScript
+- **Framework:** Electron
+- **Build Tool:** Electron Forge
+- **Frontend:** HTML, CSS, JavaScript
+- **Media API:** Web Media API (MediaRecorder, getUserMedia)
+- **Security:** Context Isolation, Preload Scripts
