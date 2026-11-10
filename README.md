@@ -47,6 +47,11 @@ npm run package
 npm run make
 ```
 
+## Future Improvements
+- Add system audio recording (loopback)
+- Add pause/resume functionality
+- Allow choosing output format (MP4, GIF)
+
 ## Tech Stack
 
 - **Framework:** Electron
