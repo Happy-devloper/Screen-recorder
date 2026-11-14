@@ -26,7 +26,7 @@ You’ll need [Node.js](https://nodejs.org/) and npm.
 
 ```bash
 git clone https://github.com/Happy-devloper/Screen-recorder
-cd screen-recorder
+cd Screen-recorder
 npm install
 npm start
 ```
